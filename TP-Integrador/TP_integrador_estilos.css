@@ -1,0 +1,120 @@
+/* Navbar */
+.bgNavbar {
+    background-color: #353a40;
+    display: flex;
+}
+
+.margenizq {
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+.marginder {
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+/* Container Conf Bs. As */
+.ba1 {
+    background-image: url(ba1.jpg);
+    background-position: center; /* Centrada*/
+    background-attachment: contain; /* dentro del contenedor*/
+    background-size: cover; /*No se agrande*/
+    display: flex;
+    flex-flow: column nowrap;
+    height: 35rem;
+       
+}
+
+#tarjeta1 {
+    height: 35rem;
+    background:rgba(0,0,0,0.6);
+    }
+
+.card {
+    background-color: transparent;
+    color: white;
+    display: flex;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.card-title {
+    text-align: end;
+    font-size: 32px;    
+}
+
+.card-text {
+    text-align: right;
+}
+
+.botonverde {
+    background-color: #27a844;
+    margin: 0px 15px;
+    
+}
+
+.moverbotones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+}
+/* Tarjetas Oradores */
+/*  
+.card {
+    margin: 12px;
+}
+*/
+
+.btn-warning{
+    font-weight: bold;
+}
+
+.botonReact {
+    background-color: #17a2b9;
+    font-weight: bold;
+    color: white
+}
+
+.btn-secondary {
+    font-weight: bold;
+}
+
+.btn-danger{
+    font-weight: bold;
+}
+
+
+.TituloCardOradores {
+    text-align: start;
+    font-size: 18px;
+    color: black;
+}
+
+.TextoOradores {
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+}
+
+/* Honolulu - Octubre */
+
+.honolulu {
+    height: 30rem;
+}
+
+
+
+
+
+
+
