@@ -76,8 +76,8 @@
         <!-- TARJETAS ORADORES -->
         
         <!-- TODO TERMINAR TARJETAS ORADORES -->
-        <div class="tarjetasoradores row justify-content-center">
-            <div class="card" style="width: 20rem;">
+        <div class="tarjetasOradores row justify-content-center">
+            <div class="tarjetasOradores" style="width: 20rem;">
                 <img src="steve.jpg" class="card-img-top" alt="steve">
                 <div class="card-body">
                     <a href="#" class="btn btn-warning">JavaScript</a>
@@ -87,7 +87,7 @@
                     
                 </div>
             </div>
-            <div class="card" style="width: 20rem;">
+            <div class="tarjetasOradores" style="width: 20rem;">
                 <img src="bill.jpg" class="card-img-top" alt="bill">
                 <div class="card-body">
                     <a href="#" class="btn btn-warning">JavaScript</a>
@@ -96,7 +96,7 @@
                     <p class="TextoOradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore, perspiciatis necessitatibus voluptate harum quisquam cum quis, enim blanditiis perferendis consectetur maiores quae hic quasi</p>
                 </div>
             </div>
-            <div class="card" style="width: 20rem;">
+            <div class="tarjetasOradores" style="width: 20rem;">
                 <img src="ada.jpeg" class="card-img-top" alt="ada">
                 <div class="card-body">
                     <a href="#" class="btn btn-secondary">Negocios</a>
@@ -108,8 +108,51 @@
         </div>
     <br>
         <!-- Playa - BS AS OCTUBRE -->
-        <div class="HonoluluOctubre">
-            <img src="honolulu.jpg" class="honolulu" alt="honolulu">
+        <div class="container-fluid row">
+            <div class="col-6 honolulu">
+                <img src="honolulu.jpg" class="honolulu" alt="honolulu">
+            </div>
+            <div class="col-6 text-light" style="background-color: #353a40;">
+                <br>
+                <p class="h4">Bs As - Octubre</p>
+                <p class="text-left textoOctubre">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidences. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
+                <button type="button" class="btn btn-outline-light btn-sm">Conocé más</button>
+            </div>
+        </div>
+    
+        <!-- CONVIERTETE EN ORADOR + FORM -->
+    
+        <p></p>
+            <div style="text-align: center; font-size: 15px;">
+                CONVIÉRTETE EN UN<h2>ORADOR</h2>
+            <p>Anótate como orador para dar una <abbr title="charlaignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
+            </div>
+        
+        <!-- FORMULARIO -->
+    
+        <div class="container-fluid">
+            <form>
+                <div class="justify-content-center row">
+                  <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Nombre" name="Apellido">
+                  </div>
+                  <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Apellido" name="Apellido">
+                  </div>
+                </div>
+                <br>
+                <div class="justify-content-center row">
+                    <div class="col-6">                    
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?"rows="5"></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label text-secondary text-sm">Recuerda incluir un título para tu charla</label>
+                        <div class="d-grid gap-2">
+                            <button class="btn botonenviar" type="button">Enviar</button>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </form>
         </div>
     
 

@@ -69,11 +69,10 @@
     justify-content: flex-end;
 }
 /* Tarjetas Oradores */
-/*  
-.card {
+  
+.TarjetasOradores {
     margin: 12px;
 }
-*/
 
 .btn-warning{
     font-weight: bold;
@@ -108,10 +107,26 @@
 
 /* Honolulu - Octubre */
 
-.honolulu {
-    height: 30rem;
+.HonoluluBsAs {
+    display: flexbox;
+    
 }
 
+.honolulu {
+    width: 40rem;
+    
+}
+
+.textoOctubre {
+    font-size: 13px;
+}
+
+/* Formulario Queres ser un orador */
+.botonenviar {
+    background-color: #96c93e;
+    color: white;
+    font-size: 18px;
+}
 
 
 
