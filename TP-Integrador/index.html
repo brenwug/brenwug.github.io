@@ -14,7 +14,7 @@
 
     <!-- <div class="container-fluid"> -->
     <!-- Barra de navegación -->
-        
+    <div class="container-fluid">  
         <nav class="navbar navbar-expand-md bgNavbar">
             <div class="container-fluid">
                 <div class="text-light margenizq">
@@ -23,25 +23,28 @@
                 </div>
                 
                 <div class="align-content-end marginder">
-    <!-- TODO VERIFICAR COLLAPS -->
-                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" aria-current="page" href="#">La conferencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Los oradores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-success" href="#">Comprar tickets</a>
-                    </li>
-                    </ul>
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="#">La conferencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Los oradores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="#">Comprar tickets</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 
             </div>
@@ -77,35 +80,37 @@
         <!-- TARJETAS ORADORES -->
         
         <!-- TODO TERMINAR TARJETAS ORADORES -->
-        <div class="tarjetasOradores row justify-content-center">
-            <div class="tarjetasOradores" style="width: 20rem;">
+        <div class="row justify-content-center">
+            <div class=" card tarjetasOradores Jobs" style="width: 20rem; padding-left: 0; padding-right: 0;">
                 <img src="steve.jpg" class="card-img-top" alt="steve">
                 <div class="card-body">
-                    <a href="#" class="btn btn-warning">JavaScript</a>
-                    <a href="#" class="btn botonReact">React</a>
+                    <a href="#" class="btn btn-sm btn-warning">JavaScript</a>
+                    <a href="#" class="btn btn-sm botonReact">React</a>
                     <h5 class="TituloCardOradores">Steve Jobs</h5>
                     <p class="TextoOradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore, perspiciatis necessitatibus voluptate harum quisquam cum quis, enim blanditiis perferendis consectetur maiores quae hic quasi</p>
-                    
                 </div>
             </div>
-            <div class="tarjetasOradores" style="width: 20rem;">
+
+            <div class="card tarjetasOradores Gates" style="width: 20rem; padding-left: 0; padding-right: 0;">
                 <img src="bill.jpg" class="card-img-top" alt="bill">
                 <div class="card-body">
-                    <a href="#" class="btn btn-warning">JavaScript</a>
-                    <a href="#" class="btn botonReact">React</a>
+                    <a href="#" class="btn btn-sm btn-warning">JavaScript</a>
+                    <a href="#" class="btn btn-sm botonReact">React</a>
                     <h5 class="TituloCardOradores">Bill Gates</h5>
                     <p class="TextoOradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore, perspiciatis necessitatibus voluptate harum quisquam cum quis, enim blanditiis perferendis consectetur maiores quae hic quasi</p>
                 </div>
             </div>
-            <div class="tarjetasOradores" style="width: 20rem;">
+
+            <div class="card tarjetasOradores Ada" style="width: 20rem; padding-left: 0; padding-right: 0;">
                 <img src="ada.jpeg" class="card-img-top" alt="ada">
                 <div class="card-body">
-                    <a href="#" class="btn btn-secondary">Negocios</a>
-                    <a href="#" class="btn btn-danger">Startups</a>
+                    <a href="#" class="btn btn-sm btn-secondary">Negocios</a>
+                    <a href="#" class="btn btn-sm btn-danger">Startups</a>
                     <h5 class="TituloCardOradores">Ada Lovelace</h5>
                     <p class="TextoOradores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore, perspiciatis necessitatibus voluptate harum quisquam cum quis, enim blanditiis perferendis consectetur maiores quae hic quasi</p>
                 </div>
             </div>
+        
         </div>
         <br>
         <!-- Playa - BS AS OCTUBRE -->
@@ -114,10 +119,12 @@
                 <img src="honolulu.jpg" class="honolulu" alt="honolulu">
             </div>
             <div class="col-6 text-light" style="background-color: #353a40;">
+                <div id="BsAs">
                 <br>
                 <p class="h4">Bs As - Octubre</p>
                 <p class="text-left textoOctubre">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidences. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
                 <button type="button" class="btn btn-outline-light btn-sm">Conocé más</button>
+                </div>
             </div>
         </div>
     
@@ -128,6 +135,7 @@
                 CONVIÉRTETE EN UN<h2>ORADOR</h2>
             <p>Anótate como orador para dar una <abbr title="charlaignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
             </div>
+        
         
         <!-- FORMULARIO -->
     
@@ -155,36 +163,46 @@
             </form>
         </div>
         <br>
+        
+        
         <!-- Navbar Final -->
-    <!-- TODO Arreglar el espacio entre las opciones y verificar si agrego un collapse -->
-        <nav class="navbar navbar-expand-lg bgNavbar" id="NavbarFinal">
-            <div class="container-fluid col-sm-6 justify-content-between" id="ItemsNavbarFinal">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#">Preguntas frecuentes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contáctanos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Prensa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Conferencias</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Términos y condiciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Privacidad</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Estudiantes</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
     
+        
+            <nav class="navbar navbar-expand-sm justify-content-center" id="NavbarFinal">
+                <div>
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Preguntas<br>Frecuentes</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Contáctanos</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Prensa</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Conferencias</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Términos y<br>condiciones</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Privacidad</a>
+                            </li>
+                            <li class="nav-item itembar">
+                                <a class="nav-link text-light" href="#">Estudiantes</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+            </nav>
+           
+        
+    </div> 
 
     
     <!-- Optional JavaScript; choose one of the two! -->

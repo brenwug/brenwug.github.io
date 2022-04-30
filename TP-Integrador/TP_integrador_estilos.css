@@ -68,30 +68,48 @@
     display: flex;
     justify-content: flex-end;
 }
+
 /* Tarjetas Oradores */
   
 .TarjetasOradores {
     margin: 12px;
+    padding: 4px; 
+
+}  
+
+.Jobs {
+    margin-right: 30px;
+}
+
+.Gates {
+    margin-right: 30px;
+}
+
+.Ada {
+    margin-right: 30px;
 }
 
 .btn-warning{
     font-weight: bold;
+    padding: 0;
 }
 
 .botonReact {
     background-color: #17a2b9;
+    padding: 0;
     font-weight: bold;
     color: white
 }
 
 .btn-secondary {
+    padding: 0;
     font-weight: bold;
 }
 
 .btn-danger{
+    padding: 0;
     font-weight: bold;
 }
-
 
 .TituloCardOradores {
     text-align: start;
@@ -109,13 +127,19 @@
 
 .HonoluluBsAs {
     display: flexbox;
+    margin-top: 5px;
     
 }
 
 .honolulu {
     width: 40rem;
+    margin-right: solid;
+    
+
     
 }
+
+
 
 .textoOctubre {
     font-size: 13px;
@@ -129,14 +153,16 @@
 }
 
 /* Navbar Final */
-
+  
 #NavbarFinal {
-    background-color: #1e516e;
-    height: 100px;
+    background-color: #1e516e; 
     
-
 }
 
+.itembar {
+    padding-right: 50px;
+    
+}
 
 
 
