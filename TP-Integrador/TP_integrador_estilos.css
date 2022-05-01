@@ -125,18 +125,14 @@
 
 /* Honolulu - Octubre */
 
-.HonoluluBsAs {
-    display: flexbox;
-    margin-top: 5px;
-    
+.honolulu {
+    margin-left: 0%;
+
 }
 
-.honolulu {
-    width: 40rem;
-    margin-right: solid;
-    
-
-    
+#BsAs {
+    padding-left: 2%;
+    margin-right: 0%;
 }
 
 
