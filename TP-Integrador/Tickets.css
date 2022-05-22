@@ -1,0 +1,53 @@
+/* PRIMERA NAVBAR */
+
+#PrimeraNavbar {
+    background-color: #353a40;
+    display: flex;
+}
+
+.margenizq {
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+.Tickets {
+    color: #96c93e; 
+}
+
+.marginder {
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+/* TARJETAS DE DESCUENTOS */
+
+.card {
+    margin: 4px;
+}
+
+/* FORMULARIO */
+
+#total {
+    background-color: #b8daff;
+    border-color: #9ac0e9;
+    color: darkblue
+}
+
+
+.opcion {
+    background-color: #96c93e;
+    color: white;
+    width: 100%;
+}
+
+/* Navbar Final */
+
+#NavbarFinal {
+    background-color: #1e516e; 
+    
+}
+
+.itembar {
+    padding-right: 50px;
+    
+}
